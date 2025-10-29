@@ -1,0 +1,38 @@
+body {
+margin: 0;
+background-color: #c0c0c0;
+}
+
+.header {
+background-color: #98bb93;
+margin-bottom: 20px;
+}
+
+.wrapper {
+max-width: 900px;
+margin: auto;
+background-color: white;
+}
+
+.aside {
+    background-color: #56afa9;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 250px;
+    margin-right: 20px;
+}
+
+.about {
+background-color:darkturquoise;
+padding: 20px;
+}
+
+.main {
+    background-color: #aff8a2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #81cbac;
+}
